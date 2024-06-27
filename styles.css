@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'JetBrains Mono', 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    color: rgb(15, 15, 15);
+    background-color: rgb(236, 236, 236);
+}
+.ui-modes {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stopwatch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-inline: auto;
+    width: max-content;
+    padding: 1rem;
+}
+
+
+.stopwatch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 0.75rem 0.2rem gray;
+}
+
+.stopwatch-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: max-content;
+    width: 80%;
+    padding: 0.5rem;
+    box-shadow: 0rem 0rem 5px 0rem gray;
+    border-radius: 0.25rem;
+}
+
+.hours,
+.minutes,
+.seconds,
+.milli-seconds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.25rem;
+    width: 2.75rem;
+    margin-inline: 0.25rem;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 0.25rem;
+    box-shadow: inset 0rem 0rem 5px 0rem gray;
+    font-size: 1.7rem;
+
+}
+
+.buttons {
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+img, button {
+    padding: 0px;
+    margin: 0px;
+}
